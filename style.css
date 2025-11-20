@@ -53,3 +53,69 @@ footer {
   color: #aaa;
   font-size: 14px;
 }
+/* --- Contact Page + Tech Logo Styles (Added by Yasser Tech) --- *//* --- Contact page styles --- */
+.site-header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:18px 28px;
+  background:linear-gradient(180deg,#071022 0%, #051226 100%);
+  border-bottom:1px solid rgba(255,255,255,0.02);
+}
+.main-nav a { color:#9fdcff; margin-left:18px; text-decoration:none; font-weight:600; }
+.main-nav a.active { color:#00f0ff; text-shadow:0 8px 30px rgba(0,198,255,0.06); }
+
+.content { max-width:980px; margin:40px auto; padding:0 20px; color:#d9f7ff; }
+.contact-hero h1 { font-size:36px; color:#00f0ff; text-align:center; text-shadow:0 14px 40px rgba(0,198,255,0.06); margin-bottom:6px }
+.contact-hero p { text-align:center; color:#cfeffb; opacity:.9; margin-bottom:26px; }
+
+.contact-form-wrap { background:#061224; border-radius:12px; padding:28px; box-shadow:0 12px 30px rgba(0,0,0,0.6); }
+.contact-form label { display:block; margin-bottom:14px; font-weight:600; color:#bfefff; }
+.contact-form input, .contact-form textarea {
+  width:100%;
+  background:#071826;
+  border:1px solid rgba(0,198,255,0.07);
+  padding:12px 14px;
+  color:#e9fbff;
+  border-radius:8px;
+  outline: none;
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.35);
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color:#00f0ff;
+  box-shadow:0 6px 30px rgba(0,198,255,0.06);
+}
+
+.form-actions { display:flex; align-items:center; gap:12px; margin-top:10px; }
+.btn {
+  background: linear-gradient(90deg,#00f0ff,#00c6ff);
+  color:#00121a;
+  padding:10px 18px;
+  border-radius:10px;
+  font-weight:700;
+  border:none;
+  cursor:pointer;
+  box-shadow:0 10px 30px rgba(0,198,255,0.08);
+}
+.hint { color:#9fdcff; opacity:.8; font-size:13px; }
+
+.site-footer { text-align:center; padding:26px 10px; color:#89e6ff; opacity:.8; margin-top:28px; }
+
+.form-status { margin-top:16px; color:#aef; }
+
+/* --- Logo styling --- */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.logo svg { filter: drop-shadow(0 6px 14px rgba(0,198,255,0.08)); }
+.brand {
+  color: #00f0ff;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-shadow: 0 6px 18px rgba(0,198,255,0.08);
+}
+.brand strong { color: #00c6ff; }
