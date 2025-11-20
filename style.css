@@ -1,4 +1,4 @@
-/* GENERAL PAGE STYLING */
+GENERAL PAGE STYLING */
 body {
   margin: 0;
   padding: 0;
@@ -118,4 +118,4 @@ footer {
   letter-spacing: 1px;
   text-shadow: 0 6px 18px rgba(0,198,255,0.08);
 }
-.brand strong { color: #00c6ff; }
+.brand strong { color: #00c6ff; } 
