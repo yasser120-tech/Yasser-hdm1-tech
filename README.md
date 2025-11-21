@@ -33,3 +33,4 @@ Stay updated with new releases, tutorials, and bot improvements.
 
 ### ⭐ Support
 If you like this project, give it a **Star ⭐** on GitHub to support future updates!
+         𝑻𝑯𝑨𝑵𝑲 𝒀𝑶𝑼😍
